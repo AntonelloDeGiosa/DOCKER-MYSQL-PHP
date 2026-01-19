@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preferenze</title>
+    <link rel="stylesheet" href="static/CSS/index.css">
+</head>
+<body>
+    <h1>Benvenuto</h1>
+    <form method="post" action="cookie_settati.php">
+        <label for="username">Nome utente:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="theme">Scegli il tema:</label>
+        <select name="theme" id="theme">
+            <option value="light">Chiaro</option>
+            <option value="dark">Scuro</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Salva Preferenze">
+    
+</body>
+</html>
